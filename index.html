@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Supreme Magnificent Giga Pet</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="content-box">
+      <header>
+        <h1>
+          Giga Pet Game
+        </h1>
+      </header>
+
+      <main>
+        <section class="dashboard">
+          <div>Name: <strong><span class="name"></span></strong></div>
+          <div>Weight: <strong><span class="weight"></span> pounds</strong></div>
+          <div>Happiness: <strong><span class="happiness"></span> tail wags (per min)</strong></div>
+          <div>Energy: <strong><span class="energy"></span> %</strong></div>
+          <div class="button-container">
+            <button class="treat-button">
+              Treat
+            </button>
+            <button class="play-button">
+              Play
+            </button>
+            <button class="exercise-button">
+              Exercise
+            </button>
+            <button class="celery-button">
+              Feed Celery
+            </button>
+            <button class="start-button">
+              START
+            </button>
+          </div>
+          <div class="button-container">
+            <button class="feed-neutron-star">Feed Neutron Star</button>
+            <button class="fly-button">Make Pet Fly</button>
+            <button class="customize-pet">Customize Pet</button>
+            <button class="feed-kibble"> Feed Kibble</button>
+          </div>
+        </section>
+        <section class="pet-image-container">
+          <!-- Replace pet image with your own pet image -->
+          <img class="pet-image" src="images/hound.jpg">
+          <img src="images/initial_speech.png" alt="speech bubble" id="speech-bubble">
+        </section>
+      </main>
+    </div>
+
+    <!-- Audio files-->
+    <audio src="sounds/entrance.mp3" id="entrance-audio"></audio>
+    <audio src="sounds/exit.mp3" id="exit-audio"></audio>
+    <audio src="sounds/fly_away.mp3" id="fly-audio"></audio>
+    <audio src="sounds/bite.mp3" id="bite-audio"></audio>
+    <audio src="sounds/bark.mp3" id="bark-audio"></audio>
+    <audio src="sounds/star_explosion.mp3" id="star_explode"></audio>
+    <audio src="sounds/flying.mp3" id="flight-audio"></audio>
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+  </body>
+</html>

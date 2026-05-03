@@ -1,0 +1,108 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 25px;
+    background-image: url("images/background.png"); /*Adds image to the background*/
+    background-attachment: fixed; /*Prevents the image from moving when scrolling through the page*/
+    color: white;
+  }
+
+  .content-box {
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    padding: 0.7em;
+    background-color: rgba(0,0,0, 0.7); /* 50% transparent black */
+    border-radius: 0.5em;
+    min-height: 700px;
+    overflow: hidden;
+  }
+  
+  main {
+    display:block;
+    height:175px;
+  }
+  
+  header {
+    border-bottom: 0.2em solid #32127a;
+  }
+  
+  h1 {
+    font-weight: bold;
+    background-color: #1e2835;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    text-align: center;
+    color: white;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  p {
+    max-width: 600px;
+  }
+  
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  footer {
+    padding-top: 25px;
+    border-top: 1px solid white;
+  }
+  
+  footer a {
+    float:left;
+    margin:5px;
+  }
+  
+  .pet-image {
+    margin-right: 10px;
+    height:250px;
+    display: inline;
+    border-radius: 1.5em;
+  }
+
+  #speech-bubble {
+    display: inline-block;
+    height: 250px;
+  }
+
+  .dashboard div {
+    display:block;
+  }
+  
+  .pet-image-container {
+    display: none;
+    /*Set display to block*/
+    margin-top: 2.5em;
+    padding:10px;
+  }
+  
+  .dashboard {
+    padding:20px;
+  }
+  
+  .button-container {
+    margin-top:20px;
+  }
+  
+  .button-container button {
+    width: 100px;
+      margin-right: 10px;
+      text-align: center;
+      display: inline-block;
+    font-size:15px;
+    background-color: #1e2835;
+    border-color: #404853;
+    cursor:pointer;
+    background-image: linear-gradient(to bottom,rgba(246,246,246,.1)0%,rgba(30,40,53,0)66%);
+    color: #fafafa;
+  }
